@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+.container{
+    width: 850px;
+    margin: 16px auto;
+}
+
+.logo{
+    display: block;
+    height: 28px;
+    fill: currentcolor;
+    max-width: initial;
+    text-align: center;
+    background-color:rgba(203, 203, 174, 0.879);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color:rgb(247, 245, 245);
+    font-family: "BBC Reith Sans", Helvetica, Arial, sans-serif;
+    font-size:large;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: "BBC Reith Sans", Helvetica, Arial, sans-serif;
+}
+
+nav li{
+    position: relative;
+    display: inline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 12px 8px;
+    font-family: "BBC Reith Sans", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+nav a:hover{
+    color:rgb(20, 9, 102);
+    text-decoration:underline;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    font-weight: 250;
+    line-height: 1.25;
+    color:rgb(152, 125, 56);
+}
+
+p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+blockquote {
+    display: block;
+    color: rgb(180, 150, 75);
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+footer{
+    font-size: 15px;
+    color:darkslategray;
+    background-color:rgba(203, 203, 174, 0.879);
+    align-items: center;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
